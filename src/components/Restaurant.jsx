@@ -3,7 +3,7 @@ function Restaurant(props) {
   console.log(props);
   return (
     <div
-      data-cy={`${props.index} ${props.restaurant.name}`}
+      data-cy={`${props.index}-${props.restaurant.name}`}
       className="restaurant"
     >
       <h2>{props.restaurant.name}</h2>
